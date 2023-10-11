@@ -1,0 +1,17 @@
+{
+    "/js/pagination.js": "/js/pagination.js",
+    "/css/colors.css": "/css/colors.css",
+    "/css/login.css": "/css/login.css",
+    "/css/main.css": "/css/main.css",
+    "/css/web.css": "/css/web.css",
+    "/js/art_pieces.js": "/js/art_pieces.js",
+    "/js/artists.js": "/js/artists.js",
+    "/js/categories.js": "/js/categories.js",
+    "/js/changepass.js": "/js/changepass.js",
+    "/js/main.js": "/js/main.js",
+    "/js/media.js": "/js/media.js",
+    "/js/menus.js": "/js/menus.js",
+    "/js/promos.js": "/js/promos.js",
+    "/js/subscribers.js": "/js/subscribers.js",
+    "/js/users.js": "/js/users.js"
+}

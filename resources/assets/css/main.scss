@@ -1,0 +1,276 @@
+body {
+	overflow-x: hidden; 
+}
+.tagline-div {
+	background-image: url(/assets/home-header-low.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20%;
+}
+
+.contact-div {
+	background-image: url(/assets/contactheader-low.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 16%;
+}
+
+.cafe-div {
+	background-image: url(/assets/cafe/thecafe-header-low.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 16%;
+}
+
+.promo-events-div {
+	background-image: url(/assets/promoevents-header-low.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 16%;
+}
+
+.gallery-img {
+	width: 100%;
+}
+
+.btn.bgac-black {
+	border-radius: 15px !important;
+	padding: 3px 30px 3px 30px !important;
+}
+.overlay-hover {
+	position: relative !important;
+	overflow: hidden;
+}
+.sold.overlay-hover:after {
+	content: "RESERVED";
+	color: white;
+	position:absolute;
+	width:auto;
+	padding: 0 10px 0 10px;
+	height:25px;
+	background-color:#cf0015;
+}
+.overlay {
+	position: absolute; 
+	transition: all 0.3s ease; 
+	background-color: black; 
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.3s ease;
+	display: table;
+	overflow: hidden;
+} 
+.helper {
+    #position: absolute;
+    #top: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content {
+    #position: relative;
+    #top: -50%;
+    margin: 0 auto;
+    width: 200px;
+}
+.overlay-hover:hover .overlay {
+	opacity: .8;	
+}
+.overlay-hover-hide {
+	bottom: 0px; 
+	position: absolute;
+	padding: 10px;
+	background-color: rgb(0,0,0,.6);
+	width: 99.9%;
+	transition: .3s;
+}
+.overlay-hover:hover .overlay-hover-hide {
+	display: none;	
+}
+.btn.contact-btn {
+	border-radius: 20px !important;
+	border: 1px solid #edeae6 !important;
+	color: white !important;
+	transition: .5s;
+}
+.btn.contact-btn:hover {
+	color: black !important;
+	background-color: #edeae6 !important;
+}
+.gallery-input {
+	padding: 5px 10px !important;
+	border-radius: 30px !important;
+	font-size: .9em !important;
+	width: 250px !important;
+	border: 1px solid #c5a173 !important;;
+}
+.checkbox-cb {
+	border: 1px solid black !important;
+	font-size: 1.1em !important;
+}
+.checkbox-label {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+	.tagline-div, .contact-div, .cafe-div, .promo-events-div {
+		height: 40vh;
+	}
+	.tagline {
+		font-size: 2.1em;
+	}
+	i {
+		font-size: 1.2em;
+	}
+	.gallery-tagline {
+		font-size: 1.3em;
+	}
+	.gallery-subtitle {
+		font-size: 1.1em;
+	}
+	.gallery-div {
+		text-align: center;
+	}
+	.hide-on-small {
+		display: none;
+	}
+	.show-on-small {
+		display: block;
+	}
+	.show-sm {
+		display: inline;
+	}
+	.hide-sm {
+		display: none;
+	}
+	.icons {
+		width: 30%
+	}
+	.counter-div, .footer-div {
+		padding: 30px 30px 0 30px !important;
+	}
+	.footer-div {
+		text-align: center;
+	}
+	.about-text-div {
+		padding: 5% !important;
+	}
+	.contact-subtitle {
+		font-size: 1.1em;
+	}
+	.menu-icon {
+		width: 20%
+	}
+	.view-artpiece-img {
+		height: 40vw !important;
+	}
+	.view-artpice-details, .view-promo-details {
+		padding-top: 25px !important;
+	}
+	.filters {
+		font-size: .85em !important;
+	}
+	.iframe {
+		width: 100%;
+		height: 200px;
+	}
+	.recaptcha {
+		transform:scale(0.85);
+		-webkit-transform:scale(0.85);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+	.gallery-input {
+		max-width: 500px;
+		width: 100%;
+	}
+	.counter-text {
+		font-size: .9em !important;
+	}
+	.count-icon {
+		width: 50%
+	}
+}
+@media only screen and (min-width: 769px) {
+	.tagline-div, .contact-div, .cafe-div{
+		height: 100vh;
+	}
+	.promo-events-div {
+		height: 80vh
+	} 
+	.tagline {
+		font-size: 3.5em;
+	}
+	i {
+		font-size: 2em;
+	}
+	.gallery-tagline {
+		font-size: 1.5em;
+	}
+	.gallery-subtitle {
+		font-size: 1.3em;
+	}
+	.gallery-img {
+		width: 100%;
+		height: 100%
+	}
+	.hide-on-small {
+		display: block;
+	}
+	.show-on-small {
+		display: none;
+	}
+	.show-sm {
+		display: none;
+	}
+	.hide-sm {
+		display: inline;
+	}
+	.icons {
+		width: 25%
+	}
+	.count-icon {
+		width: 25%
+	}
+	.counter-div, .promo-div, .footer-div {
+		padding: 50px 170px 0 170px !important;
+	}
+	.about-text-div {
+		font-size: .95em;
+		padding: 2% 5% !important;
+	}
+	.menu-icon {
+		width: 15%
+	}
+	.view-artpice-details, .view-promo-details {
+		padding: 35px !important;
+	}
+	.view-artpiece-img {
+		min-height: 60vh !important;
+	}
+	.iframe {
+		width: 100%;
+		height: 400px;
+	}
+	.gallery-input {
+		width: 200px;
+	}
+}
+a.nav-link, .toggler {
+	color: #edeae6 !important;
+	transition: all 0.5s ease;
+}
+a.nav-link.scroll, .toggler.scroll {
+	color: #181c16 !important;
+}
+nav {
+	transition: all 0.5s ease;
+	background: rgba(0, 0, 0, 0.2);
+}
+.bg-scroll {
+	background-color: #edeae6 !important;
+	background-color: black;
+	border-bottom: .5px solid #c1c1c1;
+	opacity: 1;
+}

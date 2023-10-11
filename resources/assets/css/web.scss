@@ -1,0 +1,184 @@
+body, button, input, a, span, textarea {
+	font-family: 'Lato' !important;
+}
+body {
+	background-color: #edeef0 !important;
+}
+div, table {
+	font-family: 'Lato' !important;
+	/*color: #737373 !important;*/
+}
+a {
+	text-decoration: none !important;
+}
+textarea:focus, 
+textarea.form-control:focus,
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+  outline: none !important;
+}
+.scrollable-div {
+	overflow: auto;
+}
+.right {
+	float: right !important;
+}
+.left {
+	float: left !important;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c5a173; 
+    border-radius: 5px
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #9c8261; 
+}
+.ui-autocomplete-loading {
+	background:url('/img/loader.gif') no-repeat right center;
+	background-size: 25px 25px;
+}
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	text-align: left !important;
+}
+.table-td-top td {
+	vertical-align: top !important;
+}
+.regular {
+	font-size: 1em !important;
+}
+.small {
+	font-size: .9em !important;
+}
+.smaller {
+	font-size: .8em !important;
+}
+.pointer {
+	cursor: pointer !important;
+}
+td {
+	vertical-align: middle !important;
+}
+textarea {
+	resize: none !important;
+}
+.action-btn {
+	width: 37px !important;
+	height: 35px !important;
+	padding: 10px 10px 10px 10px !important;
+	line-height: 0px !important;
+}
+.paragraph {
+	white-space: pre-wrap;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.btn-warn {
+	background-color: #facea8 !important;
+	color: black !important;
+}
+@media only screen and (max-width: 768px) {
+	.data-image {
+		width: 60% !important;
+	}
+	.sidepanel {
+		width: 100%;
+	}
+	.sidepanel-hidden {	
+		margin-right: -100%;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.data-image {
+		width: 80% !important;
+	}
+	.sidepanel {
+		width: 60%;
+	}
+	.sidepanel-hidden {	
+		margin-right: -60%;
+	}
+}
+.sidepanel  {
+	position: fixed;
+	z-index: 2;
+	height: 100%;
+	top: 0;
+	right: 0;
+	overflow-x: hidden;
+	transition: 0.6s;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-image: url('/img/sidepanelbg.jpg');
+	background-size: cover; 
+	background-attachment: scroll;
+}
+.sidepanel-shown {	
+	margin-right: 0%;
+}
+.content-img {
+	height: 200px;
+	background-size: cover; 
+	background-attachment: scroll;
+}
+#overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+}
+input, textarea, select {
+	border-color: #c5a173 !important;
+}
+.swal-title {
+	font-size: 20px !important;
+	font-family: 'Lato' !important;
+}
+.swal-subtitle {
+	font-size: 16px !important;
+	font-family: 'Lato' !important;
+}
+.swal-subtitle-validation {
+	font-size: 16px !important;
+	text-align: left !important
+}
+.swal-okay-button {
+	font-size: .8em !important;
+	padding: 10px;
+	width: 45% !important;
+}
+.edit-btn, .delete-btn {
+	cursor: pointer !important;
+}
+ul.pagination {
+	align-content: center !important;
+	background-color: white !important;
+}
